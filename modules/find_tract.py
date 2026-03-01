@@ -1,10 +1,10 @@
 import requests
 
-def clean_address_mcdonalds(address, city):
+def clean_address_chipotle(address, city):
     '''
-    Function to clean an address in the 2025 McDonalds dataset for use with the Census Geolocator API
+    Function to clean an address in the 2020 Chipotle dataset for use with the Census Geolocator API
 
-    :param address: An address field for a McDonalds address
+    :param address: An address field for a Chipotle address
     :param city: City to act as a way to find where to split the string
     '''
 
